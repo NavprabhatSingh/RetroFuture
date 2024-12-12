@@ -37,7 +37,50 @@ html,body{
     object-fit: cover;
     border: 10px;
 }
+/* Projects */
 
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 52px;
+    padding: 20px;
+    margin: 65px;
+}
+
+.projects .project {
+    
+    size: 20px;
+    
+    width: 413.33px;
+    height: 333px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.projects .project img {
+    width: 100%;
+    height: auto;
+    
+}
+/* Container 2 */
+.container2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.container2 .contact{
+    text-align: center;
+}
+/* Container 3 */
+.container3{
+    padding: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Contianer 4 */
 #container4{
     height: 100vh;
