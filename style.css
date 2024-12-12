@@ -37,6 +37,50 @@ html,body{
     object-fit: cover;
     border: 10px;
 }
+
+/* Contianer 4 */
+#container4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container4 .contact{
+    text-align: center;
+}
+#container4 .contact h2{
+    padding: 0.4vmax;
+}
+#container4 .contact .input{
+    padding: 2vmax 0;
+}
+#container4 .contact .input input[type="number"]{
+    width: 3vmax;
+    height: 3vmax;
+    background:rgba(209, 235, 235, 0.4);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 1.5vmax;
+}
+#container4 .contact button{
+    color: #000;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 1);
+    border: none;
+    padding: 0.7vmax 1vmax;
+    border-radius: 10px;
+    margin-bottom: 2vmax;
+}
+#container4 .contact a{
+    text-decoration: none;
+    font-size: 1vmax;
+    color: rgba(0, 255, 255, 1);
+
+}
+
 @media (max-width:700px) {
     .links a{
         padding: 0;
