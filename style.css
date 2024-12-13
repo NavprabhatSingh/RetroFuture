@@ -71,7 +71,16 @@ html,body{
     justify-content: center;
     align-content: center;
 }
-.container2 .contact{
+.container2 .mid {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.container2 h1{
     text-align: center;
 }
 /* Container 3 */
@@ -128,4 +137,19 @@ html,body{
     .links a{
         padding: 0;
     }
+}
+/* Footer */
+footer {
+    padding: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer button{
+    color: #D7E4E4;
+    border: 1.5px solid rgba(145, 182, 182, 0.2);
+    border-radius: 10px;
+    padding: 0.7vmax 1vmax;
+    background-color: #020D0D;
+
 }
