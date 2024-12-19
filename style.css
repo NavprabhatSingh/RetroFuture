@@ -39,7 +39,7 @@ html,body{
 }
 /* Projects */
 .projects {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 52px;
@@ -136,6 +136,10 @@ html,body{
 @media (max-width:700px) {
     .links a{
         padding: 0;
+    }
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 /* Footer */
