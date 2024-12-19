@@ -38,9 +38,9 @@ html,body{
     border: 10px;
 }
 /* Projects */
-
 .projects {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     gap: 52px;
     padding: 20px;
@@ -51,8 +51,8 @@ html,body{
     
     size: 20px;
     
-    width: 413.33px;
-    height: 333px;
+    width: auto;
+    height: auto;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
 }
@@ -152,4 +152,7 @@ footer button{
     padding: 0.7vmax 1vmax;
     background-color: #020D0D;
 
+}
+footer button:visited{
+    background-color: blue;
 }

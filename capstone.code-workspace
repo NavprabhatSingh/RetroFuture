@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../capstone"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "RetroFuture",
+		"liveServer.settings.port": 5501
+	}
+}
